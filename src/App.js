@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import './Loader.css';
+import Map from "./components/map.js";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div className="Map-box">
-        <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
+        <Map />
       </div>
     </div>
   );
