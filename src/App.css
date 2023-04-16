@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+h1 { 
+  display: block;
+  font-size: 3em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  color:black;
+  font-weight: bold;
+  text-align: left;
+}
+
+
 .App-logo {
   height: 60px;
   position: absolute;
@@ -43,4 +56,45 @@
 .Map-box {
   background-color: rgb(255, 255, 255);
   min-height: 60vh;
+}
+
+.content-main-page {
+  background-color: white;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.section-main-page {
+  border-left: 1px solid;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.paragraph-main-page {
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 5px;
+}
+
+.image-fr {
+  width: 100%;
+}
+
+.shape-fun-fact {
+  height: 50px;
+  width: auto;
+  border-color: black;
+  border: 1px solid;
+  text-align: left;
+  padding-left: 2em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+
 }

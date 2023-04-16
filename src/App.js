@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from './logo.svg';
+import logo from './logo.jpg';
 import './App.css';
 import { VectorMap } from "react-jvectormap";
 import CountryInfo from "./components/CountryInfo"

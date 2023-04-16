@@ -4,6 +4,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "all": "^0.0.0",
     "bootstrap": "^5.2.3",
     "country-list": "^2.3.0",
     "lodash": "^4.17.21",
